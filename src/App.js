@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from './Navbar.js'; // Importamos el componente Navbar
+import Navbar from './Navbar'; // Importa tu Navbar
+import Boton from './Boton';   // Importa tu botón
 
 function App() {
   return (
     <div>
       <Navbar />
-      <main>
-        <h1>Bienvenido a Hopson E-commerce</h1>
-        <p>Esta es la página principal.</p>
-      </main>
+      <Boton />
     </div>
   );
 }
 
-export default App;
+export default App;  // Solo exporta App por defecto
+
+
