@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar'; // Importa tu Navbar
-import Boton from './Boton';   // Importa tu botón
+import Boton from './Miboton';   // Importa tu botón
 
 function App() {
   return (
