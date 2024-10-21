@@ -40,15 +40,15 @@ const styles = {
     display: 'inline',
   },
   navLink: {
-    color: '#fff',           // Color de los enlaces cuando no está en hover
-    textDecoration: 'none',  // Quita el subrayado
-    fontSize: '18px',        // Tamaño de la fuente
-    transition: 'color 0.6s ease', // Transición suave para el cambio de color
-  },
+    color: '#fff',           
+    textDecoration: 'none',  
+    fontSize: '18px',        
+    transition: 'color 0.6s ease',
+  },  
   navLinkHover: {
-    color: '#cdf334',        // Color del enlace cuando está en hover
-    textDecoration: 'none',  // Asegura que no haya subrayado
-  },
+    color: '#cdf334',        
+    textDecoration: 'none',
+  }    
 };
 
 export default Navbar;
