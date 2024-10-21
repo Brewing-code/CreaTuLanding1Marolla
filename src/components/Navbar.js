@@ -43,7 +43,7 @@ const styles = {
     color: '#fff',           // Color de los enlaces cuando no está en hover
     textDecoration: 'none',  // Quita el subrayado
     fontSize: '18px',        // Tamaño de la fuente
-    transition: 'color 0.3s ease', // Transición suave para el cambio de color
+    transition: 'color 0.6s ease', // Transición suave para el cambio de color
   },
   navLinkHover: {
     color: '#cdf334',        // Color del enlace cuando está en hover

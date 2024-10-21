@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './Navbar'; // Importa tu Navbar
-import Boton from './Miboton';   // Importa tu botón
+import Navbar from './components/Navbar'; // Importa tu Navbar
+import MiBoton from './components/Miboton';   // Importa tu botón
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Boton />
+      <MiBoton  label="Dame duro" callback={() => console.log("Hola Botón")} />
     </div>
   );
 }
