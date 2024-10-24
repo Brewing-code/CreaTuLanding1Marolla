@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    width: 100vw; 
+  }
+  
+  .nav h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav ul li {
+    margin-left: 2rem; 
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600; 
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline; 
+  }
+
+  .greeting {
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+  }
