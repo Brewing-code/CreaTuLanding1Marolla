@@ -43,11 +43,28 @@ body {
     color:  rgb(243, 252, 240);
     letter-spacing: 0.05em;
     text-decoration: none;
-    font-weight: 600; 
+    font-weight: 400;
+    transition: color 1s ease;
+    position: relative;
   }
   
   .nav ul li a:hover {
-    text-decoration: underline; 
+    color: #EDF42F; 
+  }
+
+  .nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #EDF42F; 
+    transition: width 0.3s ease; 
+  }
+  
+  .nav ul li a:hover::after {
+    width: 100%; /* La línea se expande al 100% del ancho del enlace al hacer hover */
   }
 
   .greeting {
