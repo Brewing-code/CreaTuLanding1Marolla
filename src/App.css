@@ -59,7 +59,7 @@ body {
     font-family:roboto condensed;
     letter-spacing: none;
     color: rgb(20, 33, 61);
-    background-color: rgba(252, 162, 17, 0.869);
+    background-color: #EDF42F;
   }
 
   @media (max-width: 768px) {
