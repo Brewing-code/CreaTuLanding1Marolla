@@ -1,17 +1,17 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react'
+import {useState} from 'react';
+
+
 
 const Button = ({fn, texto}) => {
-    
-    const [count, setCount] = useState(0)  
 
-    const sum = ()=> {
-        setCount(count +1)
-    }
 
-    return(
-        <button onClick= {()=>sum()}> {count} </button>
-    )
+
+  console.log("se renderiza boton")
+
+  return (
+    <button onClick={()=>fn()}> {texto} </button>
+  )
 }
 
 export default Button
