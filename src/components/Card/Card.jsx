@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 export const Card = ({product}) => {
   return (
-		<div>
-			<img src={product.img} alt={product.title} />
-			<div>{product.title}</div>
-			<div>{product.price}</div>
+		<div className='container-img'>
+			<img className='image' src={product.img} alt={product.title} />
+			<div className='title'>{product.title}</div>
+			<div className='price'>{product.price}</div>
 		</div>
   );
 }

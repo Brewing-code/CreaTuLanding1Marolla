@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-
+import '../src/components/Card/card.css'
+import { ComponentePromise } from './components/ComponentePromise/ComponentePromise';
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
 
@@ -15,7 +16,7 @@ function App() {
       
       
       <ItemListContainer greeting='Bienvenido a la tienda del Soldado'/>
-      
+      <ComponentePromise />
     </>
   );
 }

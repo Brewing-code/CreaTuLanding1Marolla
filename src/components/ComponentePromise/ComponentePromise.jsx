@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { products } from "../data/products";
-import { Card } from "./Card";
+import { products } from "../../Data/Products";
+import { Card } from "../Card/Card";
 
 let task = new Promise((res, rej) => {
 	setTimeout(() => {
 		res(products);
 	}, 2000);
-	rej("Rechaza la promesa")
+	//rej("Rechaza la promesa")
 });
 
 export const ComponentePromise = () => {
